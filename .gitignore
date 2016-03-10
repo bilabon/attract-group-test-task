@@ -1,0 +1,11 @@
+*.pyc
+*.DS_Store
+/.bash_history
+/.bashrc
+/env
+/.env
+*.sqlite3
+*.db
+web/*
+logs/*.log
+logs/email/*
