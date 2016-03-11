@@ -7,7 +7,7 @@ HOST          = 127.0.0.1
 PORT          = 8895
 CURRPATH      = $(shell pwd)
 
-PROJECT_TEST_TARGETS=
+PROJECT_TEST_TARGETS=general
 PYTHONPATH=.:..
 
 MANAGE=cd $(PROJECT) && PYTHONPATH=$(PYTHONPATH) DJANGO_SETTINGS_MODULE=$(PROJECT).settings django-admin.py
