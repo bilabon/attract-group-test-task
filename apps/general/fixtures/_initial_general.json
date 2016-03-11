@@ -1,0 +1,85 @@
+[
+{
+    "fields": {
+        "education": "Preschool"
+    },
+    "model": "general.document",
+    "pk": 1
+},
+{
+    "fields": {
+        "education": "Primary school"
+    },
+    "model": "general.document",
+    "pk": 2
+},
+{
+    "fields": {
+        "education": "Secondary school"
+    },
+    "model": "general.document",
+    "pk": 3
+},
+{
+    "fields": {
+        "education": "College"
+    },
+    "model": "general.document",
+    "pk": 4
+},
+{
+    "fields": {
+        "education": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442"
+    },
+    "model": "general.document",
+    "pk": 5
+},
+{
+    "fields": {
+        "documents": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "name": "John"
+    },
+    "model": "general.people",
+    "pk": 1
+},
+{
+    "fields": {
+        "documents": [
+            5
+        ],
+        "name": "Max"
+    },
+    "model": "general.people",
+    "pk": 2
+},
+{
+    "fields": {
+        "documents": [
+            3,
+            4,
+            5
+        ],
+        "name": "\u041d\u0438\u043a\u0438\u0442\u0430"
+    },
+    "model": "general.people",
+    "pk": 3
+},
+{
+    "fields": {
+        "documents": [
+            1,
+            2,
+            3
+        ],
+        "name": "\u0412\u043e\u0432\u0430"
+    },
+    "model": "general.people",
+    "pk": 4
+}
+]
