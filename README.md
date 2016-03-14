@@ -2,7 +2,8 @@ Test task for the Attract Group
 ======
 
 Это тестовое задание на позицию Python developer.
-Задание 1:
+
+####Задание 1:
 
 - Есть таблица людей people (id, name) и таблица документов document (id, education, people_id).
 Написать модели и выполнить инициализирующие миграции. Написать консольный скрипт (https://docs.djangoproject.com/en/1.9/howto/custom-management-commands/), который принимает на вход условие отбора по типу документа (например python должно вернуть всех людей, у которых есть данное образование).
@@ -14,7 +15,7 @@ Test task for the Attract Group
 Скрин консоли:
 ![Скрин выполнения задания 1](https://raw.githubusercontent.com/bilabon/attract-group-test-task/master/static/task1.png)
 
-Задание 2:
+####Задание 2:
 
 - Написать консольный скрипт по работе с одним из внешних сервисов (на Ваш выбор): получение курсов валют (с двух сайтов, на Ваш выбор).
 
@@ -44,14 +45,16 @@ Attention
 =========
 
 - Python support: `2.7`
+
 -------
 
 Quick start guide
-=================
++++++++++++++++++
 
 Clone
 -----
 
+.. code-block::
 
     $ git clone git@github.com:bilabon/attract-group-test-task.git
     $ cd attract-group-test-task/
@@ -60,6 +63,7 @@ Clone
 Install virtualenv
 ------------------
 
+.. code-block::
 
     $ virtualenv --no-site-packages -p/usr/bin/python2.7 .env
     $ source .env/bin/activate
@@ -69,12 +73,15 @@ Install virtualenv
 Install packages
 ----------------
 
+.. code-block::
 
     (.env)$ pip install -r requirements.txt
 
 
 Synchronize
 ----------------
+
+.. code-block::
 
     (.env)$ make install
     (.env)$ make migrate
