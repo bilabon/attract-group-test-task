@@ -13,6 +13,7 @@ Test task for the Attract Group
 Команда `(.env)$ ./manage.py find_people 'primary school, college, Университет'` запускает данный скрипт. В результате мы получаем список людей у которых есть все перечисленные образования. Есть возможность добавить аргумент `-exclude`, тогда результатом выполнения скрипта будет список людей у которых нету ни одного из перечисленных образований.
 Фикстуры лоадятся при запуске команды `make migrate`, так что БД не пустая. Команда `make test` запускает тесты для данного решения.
 Скрин консоли:
+
 ![Скрин выполнения задания 1](https://raw.githubusercontent.com/bilabon/attract-group-test-task/master/static/task1.png)
 
 ####Задание 2:
@@ -23,6 +24,7 @@ Test task for the Attract Group
 
 Скрипт запускается командой: `(.env)$ python parse_currency.py`. Парсер написан для privatbank.ua и kurs.com.ua сайтов.
 Скрин консоли:
+
 ![Скрин выполнения задания 1](https://raw.githubusercontent.com/bilabon/attract-group-test-task/master/static/task2.png)
 
 
