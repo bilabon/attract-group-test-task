@@ -33,6 +33,7 @@ Test task for the Attract Group
 
 -------
 
+
 Agreement
 =========
 
@@ -48,13 +49,12 @@ Attention
 
 -------
 
+
 Quick start guide
-+++++++++++++++++
+================
 
 Clone
 -----
-
-.. code-block::
 
     $ git clone git@github.com:bilabon/attract-group-test-task.git
     $ cd attract-group-test-task/
@@ -62,8 +62,6 @@ Clone
 
 Install virtualenv
 ------------------
-
-.. code-block::
 
     $ virtualenv --no-site-packages -p/usr/bin/python2.7 .env
     $ source .env/bin/activate
@@ -73,15 +71,11 @@ Install virtualenv
 Install packages
 ----------------
 
-.. code-block::
-
     (.env)$ pip install -r requirements.txt
 
 
 Synchronize
 ----------------
-
-.. code-block::
 
     (.env)$ make install
     (.env)$ make migrate
