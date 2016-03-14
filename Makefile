@@ -54,7 +54,7 @@ test:
 
 install:
 	( \
+		virtualenv --no-site-packages -p/usr/bin/python2.7 .env; \
 		source $(CURRPATH)/.env/bin/activate; \
 		pip install -r requirements.txt; \
-		$(MANAGE) collectstatic; \
 	)
