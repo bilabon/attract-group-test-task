@@ -1,7 +1,6 @@
 Test task for the Attract Group
 ======
 
-Это тестовое задание на позицию Python developer.
 
 ####Задание 1:
 
